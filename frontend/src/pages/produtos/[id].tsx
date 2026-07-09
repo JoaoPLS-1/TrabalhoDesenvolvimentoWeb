@@ -5,7 +5,6 @@ import { useEffect, useState } from "react";
 
 // [id].tsx é uma rota dinâmica do Next.js: o valor entre colchetes vira um
 // parâmetro acessível via useRouter().query.id (ex: /produtos/3 -> id = "3")
-
 export default function EditarProduto() {
   const router = useRouter();
   const { id } = router.query;
